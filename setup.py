@@ -44,6 +44,7 @@ setup(
     package_dir={'': 'src'},
     entry_points={
         'console_scripts': [
+            'ttrends_version  = ttrends.entrypoints.version:entrypoint',
             'twitter_trends     = ttrends.entrypoints.trends:entrypoint',
         ],
     },
