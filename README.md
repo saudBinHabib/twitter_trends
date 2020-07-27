@@ -23,7 +23,11 @@ Install
 Twitter Trends Console Commands
 
     ::
-
+    
+    #checking the ttrends package version.
+    
+    ttrends_version
+    
     twitter_trends --country london --top 5
     twitter_trends --country germany --top 20
     twitter_trends --country pakistan --top 10
